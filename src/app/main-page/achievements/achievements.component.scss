@@ -6,3 +6,26 @@ p {
 h2 {
     padding-top: 50px;
 }
+
+.michelledt-achievements-flex {
+    display: flex;
+}
+
+.michelledt-achievements-col {
+    flex: 30%;
+    margin: 0 2% 0 2%;
+}
+
+.panel-heading {
+    background-color: rgb(50, 230, 215);
+    color: black;
+}
+
+@media screen and (max-width: 950px) {
+    .michelledt-achievements-flex {
+        display: grid;
+    }
+    .michelledt-achievements-col {
+        margin: 20px;
+    }
+}
