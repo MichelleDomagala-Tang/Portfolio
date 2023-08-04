@@ -1,0 +1,38 @@
+p {
+    font-size: 20px;
+    padding-top: 10px;
+}
+
+h2 {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+h3 {
+    margin: 0;
+}
+
+img {
+    width: 80px;
+}
+
+.michelle-jobs-flex {
+    display: flex;
+    margin: 0 2% 0 2%;
+}
+
+.michelledt-jobs-col {
+    flex: 50%;
+    .michelledt-jobs-img-sub-col {
+        flex: 40%;
+    }
+    .michelledt-jobs-text-sub-col {
+        flex: 60%;
+    }
+}
+
+@media screen and (max-width: 1225px) {
+    .michelle-jobs-flex {
+        display: grid;
+    }
+}

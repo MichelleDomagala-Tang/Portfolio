@@ -9,3 +9,13 @@
 .navbar-nav>li {
     padding-right: 20px;
 }
+
+.navbar-right {
+    margin-right: 5px;
+}
+
+@media screen and (max-width: 770px) {
+    .navbar-nav {
+        margin-left: 20px;
+    }
+}
