@@ -11,4 +11,8 @@ export class NavBarComponent {
     window.open(linkAddress, "_blank");
   }
 
+  scrollToView(id: string) {
+    document.getElementById(id)?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  }
+
 }

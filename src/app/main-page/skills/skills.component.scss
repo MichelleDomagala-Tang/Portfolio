@@ -1,0 +1,28 @@
+p {
+    font-size: 20px;
+    padding: 0 15%;
+}
+
+h2 {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.michelledt-skills-flex {
+    display: flex;
+    padding-bottom: 5%;
+}
+
+.michelledt-skills-col {
+    flex: 30%;
+    margin: 0 2% 0 2%;
+}
+
+@media screen and (max-width: 950px) {
+    .michelledt-skills-flex {
+        display: grid;
+    }
+    .michelledt-skills-col {
+        margin: 20px;
+    }
+}
