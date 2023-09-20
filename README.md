@@ -1,4 +1,6 @@
-# MichelleDtV2
+# MichelleDT Portfolio Website
+
+See the website live: [https://michelledomagala-tang.github.io/](https://michelledomagala-tang.github.io/)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.1.6.
 
